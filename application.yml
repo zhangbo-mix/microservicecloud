@@ -1,0 +1,17 @@
+spring:
+    profiles:
+    active:
+    -   dev
+---
+spring:
+    profiles: dev   #开发者环境
+    application:
+        name: microservicecloud-config-zb-dev
+
+---
+spring:
+    profiles: test  #测试环境
+    application:
+        name: microservicecloud-config-zb-test
+#保存为UTF-8格式
+#
